@@ -1,0 +1,61 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;  /* Fonte que será utilizada em todo o site */
+}
+
+/* Header */
+
+.header {
+  position: fixed;             /* Permite que o header fique fixo mesmo com o scroll do site */
+  top: 0;                      /* Permite que o header fique fixo mesmo com o scroll do site (inspecionar depois) */
+  width: 100%;                 /* Para pegar de ponta a ponta */
+  background: #fec63e;       /* Cor de fundo do header */
+  padding: 15px 0;             /* Para o conteúdo não ficar grudado ao topo */
+}
+
+.header_menu {
+  text-align: right;           /* Alinhamos os elementos a direita */
+}
+
+.header_menu ul li {
+  display: inline-block;       /* Deixamos a lista "inline", ou seja, em linha, com isso os itens ficam um do lado do outro */
+  margin-left: 25px;           /* Colocamos a margem a esquerda de cada item, pois eles estão alinhados a direita, e não queremos desalinhar */
+  margin-top: 20px;            /* Colocamos uma margem ao topo para descer o texto e centraliza-lo na vertical */
+}
+
+.header_menu ul li a {
+  color: #000;               /* Cor */
+  font-weight: bold;           /* Peso da fonte */
+  text-transform: uppercase;   /* Tudo maiúsculo */
+  letter-spacing: .1em;        /* Espaçamento entre as letras */
+  font-size: 14px;             /* Tamanho da fonte */
+  line-height: 20px;           /* Altura da linha */
+  padding: 10px 0;             /* Aumentamos a altura da nossa caixa, pois em dispositivos touch, facilita o click pela area de contato */
+}
+
+.header_menu ul li a:hover {
+  color: #fff;               /* Alteramos a cor quando o mouse passa por cima */
+
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;                 /* Para pegar de ponta a ponta */
+  height: 380px;
+  background: url("../img/bg.jpg") no-repeat center;   /* Imagem de fundo sem se repetir e centralizada */
+  background: cover;           /* Preenche todo tamanho da introdução sem distorcer a imagem e sem deixar espaços em branco */
+  margin-top: 96px;            /* O valor deve ser o mesmo do Header, pois como ele é fixo, o conteúdo ficou por cima dele */
+  text-align: center;          /* Alinhamos a introdução ao centro */
+  padding-top: 80px;          /* Colocamos uma margem ao topo para descer o texto */
+}
+
+.introducao h1 {
+  font-size: 48px;             /* Tamanho da fonte */
+  color: #fff;               /* Cor */
+  font-weight: bold;           /* Peso da fonte */
+  text-transform: uppercase;   /* Tudo maiúsculo */
+}
+
+/* Video 7:50 */
