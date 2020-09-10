@@ -22,8 +22,33 @@ p {
 }
 
 .btn:hover {
-  color: #fff;
-  border-color: #fff; 
+  color: #fff;                                      /* Alteramos a cor quando o mouse passa por cima */
+  border-color: #fff;                               /* Alteramos a cor da borda quando o mouse passa por cima */
+}
+
+.btn.btn-preto:hover {
+  color: #000;                                      /* Alteramos a cor quando o mouse passa por cima */
+  border-color: #000;                               /* Alteramos a cor da borda quando o mouse passa por cima */
+}
+
+.subtitulo {
+  font-size: 24px;                                    /* Tamanho da fonte */
+  line-height: 30px;                                  /* Altura da linha */
+  font-weight: bold;                                  /* Peso da fonte */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+  color: #000;                                      /* Cor do texto */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+  text-align: center;                                 /* Alinhamos o texto ao centro */
+  margin-bottom: 40px;                                /* Apenas para separar o subtitulo dos card abaixo */
+}
+
+.subtitulo:after {                                    /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
+  content: "";                                        /* Obrigatório para criação do pseudo elemento */
+  display: block;                                     /* Por padrão ele é inline */
+  width: 60px;                                        /* Largura do nosso separador */
+  height: 3px;                                        /* Altura do nosso separador */
+  background: #000;                                 /* Preenchimento branco */
+  margin: 8px auto;                                   /* Margin definida sempre no sentido horário começando pelo top */
 }
 
 /* Header */
@@ -34,6 +59,7 @@ p {
   width: 100%;                 /* Para pegar de ponta a ponta */
   background: #fec63e;       /* Cor de fundo do header */
   padding: 15px 0;             /* Para o conteúdo não ficar grudado ao topo */
+  z-index: 10;                 /* Deixa nosso header encima de tudo, pois como tem o position fixed, tudo estava encima dele */
 }
 
 .header_menu {
@@ -64,12 +90,12 @@ p {
 
 .introducao {
   width: 100%;                 /* Para pegar de ponta a ponta */
-  height: 380px;
+  height: 380px;               /* Altura da caixa da introdução */
   background: url("../img/bg.jpg") no-repeat center;   /* Imagem de fundo sem se repetir e centralizada */
   background: cover;           /* Preenche todo tamanho da introdução sem distorcer a imagem e sem deixar espaços em branco */
   margin-top: 96px;            /* O valor deve ser o mesmo do Header, pois como ele é fixo, o conteúdo ficou por cima dele */
   text-align: center;          /* Alinhamos a introdução ao centro */
-  padding-top: 80px;          /* Colocamos uma margem ao topo para descer o texto */
+  padding-top: 80px;           /* Colocamos um preenchimento ao topo para descer o texto */
 }
 
 .introducao h1 {
@@ -106,4 +132,50 @@ p {
   letter-spacing: .1em;        /* Espaçamento entre as letras */
 }
 
+/* Produtos */
 
+.produtos {
+  padding: 60px 0;             /* Colocamos um preenchimento ao topo e ao bottom da toda caixa de produtos */       
+}
+
+.produtos_lista li {
+  background: #fec63e;       /* Cor de fundo dos cards */
+  text-align: center;          /* Centralizamos tudo dentro do card */
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;           /* Peso do texto */
+  font-size: 18px;             /* Tamanho da fonte */
+  line-height: 25px;           /* Altura da linha */
+  text-transform: uppercase;   /* Tudo maiúsculo */
+  letter-spacing: .1em;        /* Espaçamento entre as letras */
+  margin-top: 20px;            /* Separamos aqui o subtitulo do card, da imagem superior */ 
+}
+
+.produtos_lista li h3:after {                         /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
+  content: "";                                        /* Obrigatório para criação do pseudo elemento */
+  display: block;                                     /* Por padrão ele é inline */
+  width: 60px;                                        /* Largura do nosso separador */
+  height: 3px;                                        /* Altura do nosso separador */
+  background: #000;                                 /* Preenchimento branco */
+  margin: 2px auto;                                   /* Margin definida sempre no sentido horário começando pelo top */
+}
+
+.produtos_lista li p {
+  padding: 10px 20px 20px 20px;                       /* Preenchimento em volta do texto do card, pra ele não ficar grudado nas bordas */
+}
+
+.produtos_icone {
+  background: #000;          /* Cor de fundo da imagem do card */
+  padding: 20px;               /* Preenchimento em volta da imagem do card pra ela não ficar grudada nas bordas */
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
