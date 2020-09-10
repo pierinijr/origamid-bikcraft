@@ -1,7 +1,29 @@
 /* Estilos Gerais */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;  /* Fonte que será utilizada em todo o site */
+  font-family: Arial, Helvetica, sans-serif;          /* Fonte que será utilizada em todo o site */
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', serif;     /* Fonte que será utilizada em todos os paragrafos */
+  font-size: 14px;                                    /* Tamanho da fonte */
+  line-height: 20px;                                  /* Altura da linha */
+}
+
+.btn {
+  border: 3px solid #fec63e;                        /* Borda do nosso botão */
+  padding: 10px 30px;                                 /* Preenchimento do nosso botão */
+  color: #fec63e;                                   /* Cor do texto, no caso do link do botão */
+  font-size: 14px;                                    /* Tamanho da fonte */
+  line-height: 20px;                                  /* Altura da linha */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+  font-weight: bold;                                  /* Peso da fonte */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff; 
 }
 
 /* Header */
@@ -36,7 +58,6 @@ body {
 
 .header_menu ul li a:hover {
   color: #fff;               /* Alteramos a cor quando o mouse passa por cima */
-
 }
 
 /* Introdução */
@@ -58,4 +79,31 @@ body {
   text-transform: uppercase;   /* Tudo maiúsculo */
 }
 
-/* Video 7:50 */
+.quote-externo {
+  max-width: 320px;            /* Limitamos uma largura maxima para poder quebrar o texto do quote */
+  margin: 0 auto;              /* Devido o "max-width", tivemos que centralizar novamente */
+  margin-bottom: 40px;         /* Serve para deixar o botão separado do quote abaixo */
+  color: white;
+}
+
+.quote-externo p {
+  font-style: italic;          /* Italico apenas no paragrafo dentro do quote */
+}
+
+.quote-externo p:before, .quote-externo p:after {   /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
+  content: "";                                      /* Obrigatório para criação do pseudo elemento */
+  display: block;                                   /* Por padrão ele é inline */
+  width: 60px;                                      /* Largura do nosso separador */
+  height: 3px;                                      /* Altura do nosso separador */
+  background: #fff;                               /* Preenchimento branco */
+  margin: 14px auto 10px auto;                      /* Margin definida sempre no sentido horário começando pelo top */
+}
+
+.quote-externo cite {
+  font-style: normal;          /* Definimos como normal, pois anteriormente o navegador interpretou o italico do p no cite tambem */
+  font-weight: bold;           /* Peso do texto */
+  font-size: 14px;             /* Tamanho da fonte */
+  letter-spacing: .1em;        /* Espaçamento entre as letras */
+}
+
+
