@@ -54,102 +54,102 @@ p {
 /* Header */
 
 .header {
-  position: fixed;             /* Permite que o header fique fixo mesmo com o scroll do site */
-  top: 0;                      /* Permite que o header fique fixo mesmo com o scroll do site (inspecionar depois) */
-  width: 100%;                 /* Para pegar de ponta a ponta */
-  background: #fec63e;       /* Cor de fundo do header */
-  padding: 15px 0;             /* Para o conteúdo não ficar grudado ao topo */
-  z-index: 10;                 /* Deixa nosso header encima de tudo, pois como tem o position fixed, tudo estava encima dele */
+  position: fixed;                                    /* Permite que o header fique fixo mesmo com o scroll do site */
+  top: 0;                                             /* Permite que o header fique fixo mesmo com o scroll do site (inspecionar depois) */
+  width: 100%;                                        /* Para pegar de ponta a ponta */
+  background: #fec63e;                              /* Cor de fundo do header */
+  padding: 15px 0;                                    /* Para o conteúdo não ficar grudado ao topo */
+  z-index: 10;                                        /* Deixa nosso header encima de tudo */
 }
 
 .header_menu {
-  text-align: right;           /* Alinhamos os elementos a direita */
+  text-align: right;                                  /* Alinhamos os elementos a direita */
 }
 
 .header_menu ul li {
-  display: inline-block;       /* Deixamos a lista "inline", ou seja, em linha, com isso os itens ficam um do lado do outro */
-  margin-left: 25px;           /* Colocamos a margem a esquerda de cada item, pois eles estão alinhados a direita, e não queremos desalinhar */
-  margin-top: 20px;            /* Colocamos uma margem ao topo para descer o texto e centraliza-lo na vertical */
+  display: inline-block;                              /* Deixamos os itens um do lado do outro */
+  margin-left: 25px;                                  /* Margem a esquerda dos li, pois não queremos desalinhar o alinhamento da direita */
+  margin-top: 20px;                                   /* Colocamos uma margem ao topo para descer o texto e centraliza-lo na vertical */
 }
 
 .header_menu ul li a {
-  color: #000;               /* Cor */
-  font-weight: bold;           /* Peso da fonte */
-  text-transform: uppercase;   /* Tudo maiúsculo */
-  letter-spacing: .1em;        /* Espaçamento entre as letras */
-  font-size: 14px;             /* Tamanho da fonte */
-  line-height: 20px;           /* Altura da linha */
-  padding: 10px 0;             /* Aumentamos a altura da nossa caixa, pois em dispositivos touch, facilita o click pela area de contato */
+  color: #000;                                      /* Cor */
+  font-weight: bold;                                  /* Peso da fonte */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+  font-size: 14px;                                    /* Tamanho da fonte */
+  line-height: 20px;                                  /* Altura da linha */
+  padding: 10px 0;                                    /* Aumentamos a area de contato, pois em touch, facilita o click */
 }
 
 .header_menu ul li a:hover {
-  color: #fff;               /* Alteramos a cor quando o mouse passa por cima */
+  color: #fff;                                      /* Alteramos a cor quando o mouse passa por cima */
 }
 
 /* Introdução */
 
 .introducao {
-  width: 100%;                 /* Para pegar de ponta a ponta */
-  height: 380px;               /* Altura da caixa da introdução */
-  background: url("../img/bg.jpg") no-repeat center;   /* Imagem de fundo sem se repetir e centralizada */
-  background: cover;           /* Preenche todo tamanho da introdução sem distorcer a imagem e sem deixar espaços em branco */
-  margin-top: 96px;            /* O valor deve ser o mesmo do Header, pois como ele é fixo, o conteúdo ficou por cima dele */
-  text-align: center;          /* Alinhamos a introdução ao centro */
-  padding-top: 80px;           /* Colocamos um preenchimento ao topo para descer o texto */
+  width: 100%;                                        /* Para pegar de ponta a ponta */
+  height: 380px;                                      /* Altura da caixa da introdução */
+  background: url("../img/bg.jpg") no-repeat center;  /* Imagem de fundo sem se repetir e centralizada */
+  background: cover;                                  /* Preenche todo tamanho da introdução com a imagem sem distorcer */
+  margin-top: 96px;                                   /* Altura superior ao Header, pois ele é fixo, e o conteúdo ficou por cima dele */
+  text-align: center;                                 /* Alinhamos a introdução ao centro */
+  padding-top: 80px;                                  /* Colocamos um preenchimento ao topo para descer o texto */
 }
 
 .introducao h1 {
-  font-size: 48px;             /* Tamanho da fonte */
-  color: #fff;               /* Cor */
-  font-weight: bold;           /* Peso da fonte */
-  text-transform: uppercase;   /* Tudo maiúsculo */
+  font-size: 48px;                                    /* Tamanho da fonte */
+  color: #fff;                                      /* Cor */
+  font-weight: bold;                                  /* Peso da fonte */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
 }
 
 .quote-externo {
-  max-width: 320px;            /* Limitamos uma largura maxima para poder quebrar o texto do quote */
-  margin: 0 auto;              /* Devido o "max-width", tivemos que centralizar novamente */
-  margin-bottom: 40px;         /* Serve para deixar o botão separado do quote abaixo */
+  max-width: 320px;                                   /* Limitamos uma largura para poder quebrar o texto do quote */
+  margin: 0 auto;                                     /* Devido o "max-width", tivemos que centralizar novamente */
+  margin-bottom: 40px;                                /* Serve para deixar o botão separado do quote abaixo */
   color: white;
 }
 
 .quote-externo p {
-  font-style: italic;          /* Italico apenas no paragrafo dentro do quote */
+  font-style: italic;                                 /* Italico apenas no paragrafo dentro do quote */
 }
 
-.quote-externo p:before, .quote-externo p:after {   /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
-  content: "";                                      /* Obrigatório para criação do pseudo elemento */
-  display: block;                                   /* Por padrão ele é inline */
-  width: 60px;                                      /* Largura do nosso separador */
-  height: 3px;                                      /* Altura do nosso separador */
-  background: #fff;                               /* Preenchimento branco */
-  margin: 14px auto 10px auto;                      /* Margin definida sempre no sentido horário começando pelo top */
+.quote-externo p:before, .quote-externo p:after {     /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
+  content: "";                                        /* Obrigatório para criação do pseudo elemento */
+  display: block;                                     /* Por padrão ele é inline */
+  width: 60px;                                        /* Largura do nosso separador */
+  height: 3px;                                        /* Altura do nosso separador */
+  background: #fff;                                 /* Preenchimento branco */
+  margin: 14px auto 10px auto;                        /* Margin definida sempre no sentido horário começando pelo top */
 }
 
 .quote-externo cite {
-  font-style: normal;          /* Definimos como normal, pois anteriormente o navegador interpretou o italico do p no cite tambem */
-  font-weight: bold;           /* Peso do texto */
-  font-size: 14px;             /* Tamanho da fonte */
-  letter-spacing: .1em;        /* Espaçamento entre as letras */
+  font-style: normal;                                 /* Anteriormente o navegador interpretou o italico do p no cite tambem */
+  font-weight: bold;                                  /* Peso do texto */
+  font-size: 14px;                                    /* Tamanho da fonte */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
 }
 
 /* Produtos */
 
 .produtos {
-  padding: 60px 0;             /* Colocamos um preenchimento ao topo e ao bottom da toda caixa de produtos */       
+  padding: 60px 0;                                    /* Preenchimento ao topo e ao bottom da toda caixa de produtos */       
 }
 
 .produtos_lista li {
-  background: #fec63e;       /* Cor de fundo dos cards */
-  text-align: center;          /* Centralizamos tudo dentro do card */
+  background: #fec63e;                              /* Cor de fundo dos cards */
+  text-align: center;                                 /* Centralizamos tudo dentro do card */
 }
 
 .produtos_lista li h3 {
-  font-weight: bold;           /* Peso do texto */
-  font-size: 18px;             /* Tamanho da fonte */
-  line-height: 25px;           /* Altura da linha */
-  text-transform: uppercase;   /* Tudo maiúsculo */
-  letter-spacing: .1em;        /* Espaçamento entre as letras */
-  margin-top: 20px;            /* Separamos aqui o subtitulo do card, da imagem superior */ 
+  font-weight: bold;                                  /* Peso do texto */
+  font-size: 18px;                                    /* Tamanho da fonte */
+  line-height: 25px;                                  /* Altura da linha */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+  margin-top: 20px;                                   /* Separamos aqui o subtitulo do card, da imagem superior */ 
 }
 
 .produtos_lista li h3:after {                         /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
@@ -166,16 +166,16 @@ p {
 }
 
 .produtos_icone {
-  background: #000;          /* Cor de fundo da imagem do card */
-  padding: 20px;               /* Preenchimento em volta da imagem do card pra ela não ficar grudada nas bordas */
+  background: #000;                                 /* Cor de fundo da imagem do card */
+  padding: 20px;                                      /* Preenchimento na imagem do card pra não ficar grudada nas bordas */
 }
 
 .call {
-  padding-top: 40px;
-  text-align: center;
-  clear: both;
+  padding-top: 40px;                                  /* Preenchimento top do call, para separar dos cards */
+  text-align: center;                                 /* Alinhamento ao centro de todo call */
+  clear: both;                                        /* O padding-top não é ativado, e por isso usamos */
 }
 
 .call p {
-  margin-bottom: 20px;
+  margin-bottom: 20px;                                /* Separamos o botão da frase */
 }
