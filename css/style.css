@@ -55,6 +55,25 @@ img {
   margin: 8px auto;                                   /* Margin definida sempre no sentido horário começando pelo top */
 }
 
+.subtitulo-interno {
+  font-size: 24px;                                    /* Tamanho da fonte */
+  line-height: 30px;                                  /* Altura da linha */
+  font-weight: bold;                                  /* Peso da fonte */
+  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+  color: #000;                                      /* Cor do texto */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+  margin-bottom: 20px;                                /* Apenas para separar o subtitulo dos card abaixo */
+}
+
+.subtitulo-interno:after {                            /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
+  content: "";                                        /* Obrigatório para criação do pseudo elemento */
+  display: block;                                     /* Por padrão ele é inline */
+  width: 60px;                                        /* Largura do nosso separador */
+  height: 3px;                                        /* Altura do nosso separador */
+  background: #000;                                 /* Preenchimento branco */
+  margin: 8px 0;                                   /* Margin definida sempre no sentido horário começando pelo top */
+}
+
 /* Header */
 
 .header {
@@ -88,6 +107,10 @@ img {
 
 .header_menu ul li a:hover {
   color: #fff;                                      /* Alteramos a cor quando o mouse passa por cima */
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #fff;
 }
 
 /* Introdução */
@@ -134,6 +157,33 @@ img {
   font-weight: bold;                                  /* Peso do texto */
   font-size: 14px;                                    /* Tamanho da fonte */
   letter-spacing: .1em;                               /* Espaçamento entre as letras */
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;                                    /* Tamanho da fonte */
+  font-weight: bold;                                  /* Peso da fonte */
+  text-transform: uppercase;                          /* Tudo maiúsculo */
+}
+
+.introducao-interna h1:after {
+  content: "";                                        /* Obrigatório para criação do pseudo elemento */
+  display: block;                                     /* Por padrão ele é inline */
+  width: 60px;                                        /* Largura do nosso separador */
+  height: 3px;                                        /* Altura do nosso separador */
+  background: #fff;                                 /* Preenchimento branco */
+  margin: 6px auto 10px auto;                        /* Margin definida sempre no sentido horário começando pelo top */
 }
 
 /* Produtos */
@@ -233,6 +283,7 @@ img {
 
 .qualidade_lista {
   padding-top: 20px;
+  overflow: auto; /* Clear Fix */
 }
 
 .qualidade_lista li {
