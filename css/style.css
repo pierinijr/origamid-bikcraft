@@ -119,7 +119,7 @@ img {
   width: 100%;                                        /* Para pegar de ponta a ponta */
   height: 380px;                                      /* Altura da caixa da introdução */
   background: url("../img/bg.jpg") no-repeat center;  /* Imagem de fundo sem se repetir e centralizada */
-  background: cover;                                  /* Preenche todo tamanho da introdução com a imagem sem distorcer */
+  background-size: cover;                             /* Preenche todo tamanho da introdução com a imagem sem distorcer */
   margin-top: 92px;                                   /* Altura superior ao Header, pois ele é fixo, e o conteúdo ficou por cima dele */
   text-align: center;                                 /* Alinhamos a introdução ao centro */
   padding-top: 80px;                                  /* Colocamos um preenchimento ao topo para descer o texto */
@@ -165,7 +165,6 @@ img {
   width: 100%;
   margin-top: 92px;
   height: 160px;
-  background-size: cover;
   text-align: center;
   color: #fff;
   padding-top: 30px;
