@@ -12,6 +12,7 @@ p {
 
 img {
   display: block;                                     /* Todas as imagem se comportarem como bloco, para tirar a margem padrão */
+  max-width: 100%;                                    /* INCLUSO PARA O RESPONSIVO - IMAGEM SE ADAPTA AO TAMANHO DA TELA */
 }
 
 .btn {
