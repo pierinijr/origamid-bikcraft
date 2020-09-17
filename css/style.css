@@ -72,7 +72,7 @@ img {
   width: 60px;                                        /* Largura do nosso separador */
   height: 3px;                                        /* Altura do nosso separador */
   background: #000;                                 /* Preenchimento branco */
-  margin: 8px 0;                                   /* Margin definida sempre no sentido horário começando pelo top */
+  margin: 8px 0;                                      /* Margin definida sempre no sentido horário começando pelo top */
 }
 
 /* Header */
@@ -183,7 +183,7 @@ img {
   width: 60px;                                        /* Largura do nosso separador */
   height: 3px;                                        /* Altura do nosso separador */
   background: #fff;                                 /* Preenchimento branco */
-  margin: 6px auto 10px auto;                        /* Margin definida sempre no sentido horário começando pelo top */
+  margin: 6px auto 10px auto;                         /* Margin definida sempre no sentido horário começando pelo top */
 }
 
 /* Produtos */
@@ -222,7 +222,6 @@ img {
 .produtos_icone {
   background: #000;                                 /* Cor de fundo da imagem do card */
   padding: 20px 50px;                                 /* Preenchimento na imagem do card pra não ficar grudada nas bordas */
-
 }
 
 .call {
