@@ -22,6 +22,30 @@
 	height: 26px;
 }
 
+/* Produtos */
+.produto_item h2 {
+	top: -150px;                                        /* Para deixar o texto sobre a imagem (negativo subiu o texto) */
+	margin-bottom: -56px;                               /* Devido o position relative, a sombra do texto ficou la, por isso ajustamos */
+} 
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+.produto_info p {
+	font-size: 14px;
+	line-height: 20px;
+	height: 122px;
+	padding: 20px 30px;
+}
+
+.produto_info ul li {
+	width: 181px;
+	height: 49px;
+}
+
+/* Final do estilo para tablets */
+
 }
 
 /* Estilo para smartphone */
@@ -56,6 +80,10 @@
 	border-color: #fff;                                                 
 }
 
+.header_menu ul li a.menu_ativo {
+  border-color: #fff;
+}
+
 /* Introdução */
 
 .introducao {
@@ -69,6 +97,11 @@
 	font-size: 36px;                                    /* Tamanho da fonte */
 }
 
+/* Introdução Interna */
+.introducao-interna {
+  margin-top: 0px;
+}
+
 /* Call */
 .call {
   padding-top: 10px;                                  /* Preenchimento top do call, para separar dos cards */
@@ -79,6 +112,59 @@
 	display: none;
 }
 
+/* Sobre */
+.missao_sobre p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0px;
+}
+
+.missao_sobre ul li {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* Produtos */
+
+.produto_item h2 {
+	top: -100px;                                        /* Para deixar o texto sobre a imagem (negativo subiu o texto) */
+	margin-bottom: -68px;                               /* Devido o position relative, a sombra do texto ficou la, por isso ajustamos */
+} 
+
+.produto_icone {
+	padding: 41px 0;
+}
+
+.produto_info p {
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+	padding: 20px 30px;
+}
+
+.produto_info ul li {
+	width: 149px;
+	height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 14px;
+}
+
+.form {
+	padding-right: 0px;
+}
+
+.orcamento_dados ul {
+	padding-right: 0px;
+}
+
+/* Contato */
+.contato_form {
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
+
+/* Final do estilo para smartphones */
 
 
 
