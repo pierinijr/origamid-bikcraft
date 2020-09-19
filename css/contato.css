@@ -3,7 +3,7 @@
 	background-size: cover;
 }
 
-/* Orçamento */
+/*Orçamento*/
 
 .contato {
 	padding: 40px 0;
@@ -13,9 +13,9 @@
 	padding-right: 60px;
 }
 
-.contato_form label {
+.contato_form label{
 	display: block;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 4px;
@@ -28,9 +28,9 @@
 	background: none;
 	padding: 7px 10px;
 	margin-bottom: 10px;
-	outline: none;                                              /* Tira o estilo azul do formulario quando selecionado */
+	outline: none;
 	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .contato_form textarea {
@@ -41,9 +41,9 @@
 	background: none;
 	padding: 7px 10px;
 	margin-bottom: 20px;
-	outline: none;                                              /* Tira o estilo azul do formulario quando selecionado */
+	outline: none;
 	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .contato_form button {
@@ -67,10 +67,10 @@
 	display: block;
 	font-size: 18px;
 	line-height: 30px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
-.contato_dados span:nth-of-type(even) {                      /* Itens que não estão em lista, utiliza o nth-of-type ao inves do child */
+.contato_dados span:nth-of-type(even) {
 	margin-bottom: 30px;
 }
 
@@ -79,28 +79,20 @@
 }
 
 .contato_dados ul li {
-  display: inline-block;
-  margin-right: 10px;
+	display: inline-block;
+	margin-right: 10px;
 }
 
 .contato_dados ul li a {
-  border: 3px solid #fec63e;
-  display: block;
-  padding: 10px;
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 10px;
 }
 
 .contato_dados ul li a:hover {
-  border-color: #000;
+	border-color: #000;
 }
 
 .contato_mapa {
 	margin-bottom: 60px;
 }
-
-
-
-
-
-
-
-

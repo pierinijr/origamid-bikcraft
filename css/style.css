@@ -1,398 +1,401 @@
 /* Estilos Gerais */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;          /* Fonte que será utilizada em todo o site */
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', serif;     /* Fonte que será utilizada em todos os paragrafos */
-  font-size: 14px;                                    /* Tamanho da fonte */
-  line-height: 20px;                                  /* Altura da linha */
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 img {
-  display: block;                                     /* Todas as imagem se comportarem como bloco, para tirar a margem padrão */
-  max-width: 100%;                                    /* INCLUSO PARA O RESPONSIVO - IMAGEM SE ADAPTA AO TAMANHO DA TELA */
+	display: block;
+	max-width: 100%;
 }
 
 .btn {
-  border: 3px solid #fec63e;                        /* Borda do nosso botão */
-  padding: 10px 30px;                                 /* Preenchimento do nosso botão */
-  color: #fec63e;                                   /* Cor do texto, no caso do link do botão */
-  font-size: 14px;                                    /* Tamanho da fonte */
-  line-height: 20px;                                  /* Altura da linha */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
-  font-weight: bold;                                  /* Peso da fonte */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+	border: 3px solid #fec63e;
+	padding: 10px 30px;
+	color: #fec63e;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
 }
 
 .btn:hover {
-  color: #fff;                                      /* Alteramos a cor quando o mouse passa por cima */
-  border-color: #fff;                               /* Alteramos a cor da borda quando o mouse passa por cima */
+	color: #fff;
+	border-color: #fff;
 }
 
 .btn.btn-preto:hover {
-  color: #000;                                      /* Alteramos a cor quando o mouse passa por cima */
-  border-color: #000;                               /* Alteramos a cor da borda quando o mouse passa por cima */
+	color: #000;
+	border-color: #000;
 }
 
 .subtitulo {
-  font-size: 24px;                                    /* Tamanho da fonte */
-  line-height: 30px;                                  /* Altura da linha */
-  font-weight: bold;                                  /* Peso da fonte */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
-  color: #000;                                      /* Cor do texto */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
-  text-align: center;                                 /* Alinhamos o texto ao centro */
-  margin-bottom: 40px;                                /* Apenas para separar o subtitulo dos card abaixo */
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
-.subtitulo:after {                                    /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #000;                                 /* Preenchimento branco */
-  margin: 8px auto;                                   /* Margin definida sempre no sentido horário começando pelo top */
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
 }
 
 .subtitulo-interno {
-  font-size: 24px;                                    /* Tamanho da fonte */
-  line-height: 30px;                                  /* Altura da linha */
-  font-weight: bold;                                  /* Peso da fonte */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
-  color: #000;                                      /* Cor do texto */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
-  margin-bottom: 20px;                                /* Apenas para separar o subtitulo dos card abaixo */
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
-.subtitulo-interno:after {                            /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #000;                                 /* Preenchimento branco */
-  margin: 8px 0;                                      /* Margin definida sempre no sentido horário começando pelo top */
+.subtitulo-interno:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0;
 }
 
 /* Header */
 
 .header {
-  position: fixed;                                    /* Permite que o header fique fixo mesmo com o scroll do site */
-  top: 0;                                             /* Permite que o header fique fixo mesmo com o scroll do site (inspecionar depois) */
-  width: 100%;                                        /* Para pegar de ponta a ponta */
-  background: #fec63e;                              /* Cor de fundo do header */
-  padding: 15px 0;                                    /* Para o conteúdo não ficar grudado ao topo */
-  z-index: 10;                                        /* Deixa nosso header encima de tudo */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fec63e; /* Amarelo */
+	padding: 15px 0;
+	z-index: 10;
 }
 
 .header_menu {
-  text-align: right;                                  /* Alinhamos os elementos a direita */
+	text-align: right;
 }
 
 .header_menu ul li {
-  display: inline-block;                              /* Deixamos os itens um do lado do outro */
-  margin-left: 25px;                                  /* Margem a esquerda dos li, pois não queremos desalinhar o alinhamento da direita */
-  margin-top: 20px;                                   /* Colocamos uma margem ao topo para descer o texto e centraliza-lo na vertical */
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 20px;
 }
 
 .header_menu ul li a {
-  color: #000;                                      /* Cor */
-  font-weight: bold;                                  /* Peso da fonte */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
-  font-size: 14px;                                    /* Tamanho da fonte */
-  line-height: 20px;                                  /* Altura da linha */
-  padding: 10px 0;                                    /* Aumentamos a area de contato, pois em touch, facilita o click */
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
 }
 
 .header_menu ul li a:hover {
-  color: #fff;                                      /* Alteramos a cor quando o mouse passa por cima */
+	color: #FFF;
 }
 
 .header_menu ul li a.menu_ativo {
-  color: #fff;
+	color: #FFF;
 }
 
 /* Introdução */
 
 .introducao {
-  width: 100%;                                        /* Para pegar de ponta a ponta */
-  height: 380px;                                      /* Altura da caixa da introdução */
-  background: url("../img/bg.jpg") no-repeat center;  /* Imagem de fundo sem se repetir e centralizada */
-  background-size: cover;                             /* Preenche todo tamanho da introdução com a imagem sem distorcer */
-  margin-top: 92px;                                   /* Altura superior ao Header, pois ele é fixo, e o conteúdo ficou por cima dele */
-  text-align: center;                                 /* Alinhamos a introdução ao centro */
-  padding-top: 80px;                                  /* Colocamos um preenchimento ao topo para descer o texto */
+	width: 100%;
+	height: 380px;
+	background: url("../img/bg.jpg") no-repeat center;
+	background-size: cover;
+	margin-top: 92px;
+	text-align: center;
+	padding-top: 80px;
 }
 
 .introducao h1 {
-  font-size: 48px;                                    /* Tamanho da fonte */
-  color: #fff;                                      /* Cor */
-  font-weight: bold;                                  /* Peso da fonte */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
+	font-size: 48px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .quote-externo {
-  max-width: 320px;                                   /* Limitamos uma largura para poder quebrar o texto do quote */
-  margin: 0 auto;                                     /* Devido o "max-width", tivemos que centralizar novamente */
-  margin-bottom: 40px;                                /* Serve para deixar o botão separado do quote abaixo */
-  color: white;
+	max-width: 320px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	color: white;
 }
 
 .quote-externo p {
-  font-style: italic;                                 /* Italico apenas no paragrafo dentro do quote */
+	font-style: italic;
 }
 
-.quote-externo p:before, .quote-externo p:after {     /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #fff;                                 /* Preenchimento branco */
-  margin: 14px auto 10px auto;                        /* Margin definida sempre no sentido horário começando pelo top */
+.quote-externo p:before, .quote-externo p:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
 }
 
 .quote-externo cite {
-  font-style: normal;                                 /* Anteriormente o navegador interpretou o italico do p no cite tambem */
-  font-weight: bold;                                  /* Peso do texto */
-  font-size: 14px;                                    /* Tamanho da fonte */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
 }
 
-/* Introdução Interna */
+/*Introducao Interna*/
 
 .introducao-interna {
-  width: 100%;
-  margin-top: 92px;
-  height: 160px;
-  text-align: center;
-  color: #fff;
-  padding-top: 30px;
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
 }
 
 .introducao-interna h1 {
-  font-size: 36px;                                    /* Tamanho da fonte */
-  font-weight: bold;                                  /* Peso da fonte */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .introducao-interna h1:after {
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #fff;                                 /* Preenchimento branco */
-  margin: 6px auto 10px auto;                         /* Margin definida sempre no sentido horário começando pelo top */
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 10px auto;
 }
 
-/* Produtos */
+
+/*Produtos*/
 
 .produtos {
-  padding: 60px 0;                                    /* Preenchimento ao topo e ao bottom da toda caixa de produtos */       
+	padding: 60px 0;
 }
 
-.produtos_lista li {
-  background: #fec63e;                              /* Cor de fundo dos cards */
-  text-align: center;                                 /* Centralizamos tudo dentro do card */
+.produtos_lista li{
+	background: #fec63e;
+	text-align: center;
 }
 
-.produtos_lista li h3 {
-  font-weight: bold;                                  /* Peso do texto */
-  font-size: 18px;                                    /* Tamanho da fonte */
-  line-height: 25px;                                  /* Altura da linha */
-  text-transform: uppercase;                          /* Tudo maiúsculo */
-  letter-spacing: .1em;                               /* Espaçamento entre as letras */
-  margin-top: 20px;                                   /* Separamos aqui o subtitulo do card, da imagem superior */ 
+.produtos_lista li img {
+	margin: 0 auto;
 }
 
-.produtos_lista li h3:after {                         /* Pseudo-Elemento - Adiciona um elemento ao projeto direto pelo CSS */
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #000;                                 /* Preenchimento branco */
-  margin: 2px auto;                                   /* Margin definida sempre no sentido horário começando pelo top */
+.produtos_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
 }
 
 .produtos_lista li p {
-  padding: 10px 20px 20px 20px;                       /* Preenchimento em volta do texto do card, pra ele não ficar grudado nas bordas */
+	padding: 10px 20px 20px 20px;
 }
 
 .produtos_icone {
-  background: #000;                                 /* Cor de fundo da imagem do card */
-  padding: 20px 50px;                                 /* Preenchimento na imagem do card pra não ficar grudada nas bordas */
+	background: #000;
+	padding: 20px;
 }
 
 .call {
-  padding-top: 40px;                                  /* Preenchimento top do call, para separar dos cards */
-  text-align: center;                                 /* Alinhamento ao centro de todo call */
-  clear: both;                                        /* O padding-top não é ativado, e por isso usamos */
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
 }
 
-.call p {
-  margin-bottom: 20px;                                /* Separamos o botão da frase */
+.call p{
+	margin-bottom: 20px;
 }
 
-/* Portfólio */
+/*Portfólio*/
 
 .portfolio {
-  width: 100%;
-  background: #000;
-  padding: 40px 0;
+	width: 100%;
+	background: #000;
+	padding: 40px 0;
 }
 
 .portfolio .subtitulo {
-  color: #fec63e;
+	color: #fec63e;
 }
 
 .portfolio .subtitulo:after {
-  background: #fec63e;
+	background: #fec63e;
 }
 
-.portfolio_lista li:last-child {                      /* Selecionamos apenas o ultimo filho da lista */
-  margin-top: 20px;
+.portfolio_lista li:last-child {
+	margin-top: 20px;
 }
 
 .portfolio .call p {
- color: #fff;
+	color: #fff;
 }
 
-/* Qualidade */
+/*Qualidade*/
 
 .qualidade {
-  padding: 60px 0;
+	padding: 60px 0;
 }
 
 .qualidade:after {
-  content: "";
-  width: 634px;
-  height: 83px;
-  display: block;
-  background: url("../img/linhas.svg") no-repeat center;
-  position: absolute;                                    /* Uma vez que a classe container é relativa, as linhas ficam absolutas a ela */
-  top: 209px;
-  right: 162px;
-  z-index: -1;                                           /* Garantindo que ele sempre fique por tras de tudo */
+	content: "";
+	width: 634px;
+	height: 83px;
+	display: block;
+	background: url("../img/linhas.svg") no-repeat center;
+	position: absolute;
+	top: 209px;
+	right: 162px;
+	z-index: -1;
 }
 
-.qualidade img {
-  margin: 0 auto;
+.qualidade img{
+	margin: 0 auto;
 }
 
 .qualidade_lista {
-  padding-top: 20px;
-  overflow: auto; /* Clear Fix */
+	padding-top: 20px;
+	overflow: auto; /* clear-fix */
 }
 
 .qualidade_lista li {
-  text-align: center;
-  padding: 0 40px;
+	text-align: center;
+	padding: 0 40px;
 }
 
-.qualidade_lista li h3 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin-top: 20px;
+.qualidade_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
 }
 
-.qualidade_lista li h3:after {
-  content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #000;                                 /* Preenchimento preto */
-  margin: 6px auto;                                   /* Margin definida 6px top e bottom, e auto dos lados, centralizando */
+.qualidade_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto;
 }
 
-/* Quebra */
+/*Quebra*/
 
 .quebra {
-  width: 100%;
-  height: 220px;
-  background: url("../img/bg-footer.jpg") no-repeat center;
-  background-size: cover;
-  text-align: center;
-  padding-top: 40px;
+	width: 100%;
+	height: 220px;
+	background: url("../img/bg-footer.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
 }
 
 .quebra .quote-externo {
-  max-width: 400px;                                    /* Para quebrar o texto antes */
+	max-width: 400px;
 }
 
-/* Footer */
+/*Footer*/
 
 .footer {
-  width: 100%;
-  background: #000;
-  color: #fff;
-  padding: 20px 0;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
 }
 
 .footer h3 {
-  font-size: 18px;
-  line-height: 25px;
-  color: #fec63e;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #fec63e;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
 }
 
 .footer h3:after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: #fec63e;
-  margin: 6px 0 12px 0;
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+	margin: 6px 0 12px 0;
 }
 
 .footer_historia {
-  padding-right: 40px;
+	padding-right: 40px;
 }
 
 .footer_contato ul li {
-  font-size: 14px;
-  line-height: 20px;
-  font-family: Georgia, "Time New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .footer_redes ul li {
-  display: inline-block;
-  margin-right: 10px;
+	display: inline-block;
+	margin-right: 10px;
 }
 
 .footer_redes ul li a {
-  border: 3px solid #fec63e;
-  display: block;
-  padding: 10px;
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 10px;
 }
 
 .footer_redes ul li a:hover {
-  border-color: #fff;
+	border-color: #fff;
 }
 
 .copy {
-  width: 100%;
-  background: #fec63e;
-  padding: 20px 0;
+	width: 100%;
+	background: #fec63e;
+	padding: 20px 0;
 }
 
-/* JavaScript */
+/*JAVASCRIPT*/
 
 .js [data-slide] {
   position: relative;
 }
-
 .js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-
 .js [data-slide] > .active {
   position: relative;
   opacity: 1;
@@ -423,22 +426,29 @@ img {
 }
 
 .js [data-anime] {
-  opacity: 0; 
+	opacity: 0;
 }
 
 .js .fadeInDown {
-  transform: translate3d(0, -20px, 0);
+	transform: translate3d(0, -20px, 0);
 }
 
 .js .anime {
-  opacity: 1;
-  transform: none;
-  transition: opacity 800ms, transform 800ms;
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
 }
 
 .nao-aparece {
-  visibility: hidden;
-  position: absolute;
-  height: 0px;
+	visibility: hidden;
+	position: absolute;
+	height: 0px;
 }
 
+#form-sucesso {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}

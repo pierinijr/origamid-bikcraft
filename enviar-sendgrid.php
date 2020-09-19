@@ -25,7 +25,7 @@ $email->setReplyTo($email_user, $nome_user);
 $email->setSubject("Formulário Bikcraft");
 $email->addContent("text/plain", $body_content);
 
-$sendgrid = new \SendGrid("COLOQUE A API AQUI"); // Colar a Key gerada na sua propria conta sendgrid
+$sendgrid = new \SendGrid("COLOQUE A API AQUI");
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";

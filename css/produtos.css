@@ -7,25 +7,25 @@
 	padding-top: 60px;
 }
 
-.produto_item h2 {
+.produto_item h2{
 	color: #fff;
 	font-size: 36px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: bold;
-	position: relative;                                 /* Para deixar o texto sobre a imagem */
-	top: -180px;                                        /* Para deixar o texto sobre a imagem (negativo subiu o texto) */
-	text-align: center;                                 /* Para deixar o texto sobre a imagem (alinhamento ao centro) */
-	margin-bottom: -56px;                               /* Devido o position relative, a sombra do texto ficou la, por isso ajustamos */
-} 
+	position: relative;
+	top: -180px;
+	text-align: center;
+	margin-bottom: -56px;
+}
 
-.produto_item h2:after, .produto_item h2:before {
-	content: "";                                        /* Obrigatório para criação do pseudo elemento */
-  display: block;                                     /* Por padrão ele é inline */
-  width: 60px;                                        /* Largura do nosso separador */
-  height: 3px;                                        /* Altura do nosso separador */
-  background: #fff;                                 /* Preenchimento preto */
-  margin: 8px auto;                                   /* Margin definida 6px top e bottom, e auto dos lados, centralizando */
+.produto_item h2:after, .produto_item h2:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 8px auto;
 }
 
 .produto_icone {
@@ -33,7 +33,7 @@
 	padding: 70px 0;
 }
 
-.produto_icone img {
+.produto_icone img{
 	margin: 0 auto;
 }
 
@@ -41,13 +41,14 @@
 	background: #000;
 }
 
-.produto_info p {
+.produto_info p{
 	color: #fff;
 	font-size: 18px;
 	line-height: 25px;
 	height: 180px;
 	padding: 30px 40px;
 }
+
 
 .produto_info ul li {
 	background: #fec63e;
@@ -62,15 +63,15 @@
 	padding-top: 16px;
 }
 
-.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2) {       
+.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2) {
 	margin-bottom: 2px;
 }
 
-.produto_info ul li:nth-child(even) {       /* odd fala com todos os impares, even fala com todos os pares.*/
+.produto_info ul li:nth-child(even) {
 	margin-left: 2px;
 }
 
-/* Orçamento */
+/*Orçamento*/
 
 .orcamento {
 	background: #000;
@@ -91,10 +92,10 @@
 	padding-right: 60px;
 }
 
-.form label {
+.form label{
 	display: block;
 	color: #fff;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 4px;
@@ -108,9 +109,9 @@
 	color: #fff;
 	padding: 7px 10px;
 	margin-bottom: 10px;
-	outline: none;                                              /* Tira o estilo azul do formulario quando selecionado */
+	outline: none;
 	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .form textarea {
@@ -122,9 +123,9 @@
 	color: #fff;
 	padding: 7px 10px;
 	margin-bottom: 20px;
-	outline: none;                                              /* Tira o estilo azul do formulario quando selecionado */
+	outline: none;
 	font-size: 14px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .form button {
@@ -148,10 +149,10 @@
 	display: block;
 	font-size: 18px;
 	line-height: 30px;
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
-.orcamento_dados span:nth-of-type(2){
+.orcamento_dados span:nth-of-type(2) {
 	margin-bottom: 40px;
 }
 
@@ -160,20 +161,16 @@
 }
 
 .orcamento_dados ul li {
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, "Times New Roman", serif;
 	font-size: 14px;
 	padding: 10px 15px;
 }
 
 .orcamento_dados ul li:nth-child(odd) {
 	background: #1d1d1d;
+
 }
 
 .orcamento_dados p {
 	margin: 8px 0;
 }
-
-
-
-
-
