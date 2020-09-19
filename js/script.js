@@ -12,3 +12,7 @@ if (window.SimpleSlide) {
 	});
 
 };
+
+if (SimpleAnime) {
+	new SimpleAnime();
+}
