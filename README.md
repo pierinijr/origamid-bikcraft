@@ -13,7 +13,7 @@
    <img src="./.github/mobile.png" width="200px">
 </div>
 
-## Tecnoligias
+## Tecnologias
 
 Esse projeto foi desenvolvido com:
 
