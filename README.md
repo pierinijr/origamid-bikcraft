@@ -16,7 +16,7 @@
 
 ### Web Screenshot
 <div align="center">
-   <img src="https://i.ibb.co/jLz2QTD/desktop.png" width="500px">
-   <img src="https://i.ibb.co/Rv3rkNn/mobile.png" width="200px">
+   <img src="./.github/desktop.png" width="500px">
+   <img src="./.github/mobile.png" width="200px">
 </div>
 
