@@ -16,5 +16,5 @@
 
 ### Web Screenshot
 <div>
-   <img src="./img/desktop.svg" width="400px">
+   <img src="./img/desktop.png" width="400px">
 </div>
