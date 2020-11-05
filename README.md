@@ -9,8 +9,7 @@
 </p>
 
 <div align="center">
-   <img src="./.github/desktop.png" width="700px">
-   <img src="./.github/mobile.png" width="400px">
+   <img src="./.github/desktop.png" width="1200px">
 </div>
 
 ## 🛠 Tecnologias
