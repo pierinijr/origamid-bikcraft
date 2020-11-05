@@ -2,7 +2,7 @@
    <img src="./img/bikcraft-qualidade.svg" alt="Bikcraft" width="180"/>
 </p>
 
-> :Bicycle: Projeto desenvolvido para ajudar a empresa Bikcraft expandir sua marca e divulgar seus produtos.
+> 🚲 Projeto desenvolvido para ajudar a empresa Bikcraft expandir sua marca e divulgar seus produtos.
 
 # Índice
 
