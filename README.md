@@ -1,8 +1,8 @@
-<p align="center">
+<h1 align="center">
    <img src="./img/bikcraft-qualidade.svg" alt="Bikcraft" width="180"/>
-</p>
+</h1>
 
-> Projeto desenvolvido para ajudar a empresa Bikcraft expandir sua marca e divulgar seus produtos.
+> Projeto para ajudar a empresa Bikcraft expandir sua marca e divulgar seus produtos.
 
 <div align="center">
    <img src="./.github/desktop.png" width="500px">
