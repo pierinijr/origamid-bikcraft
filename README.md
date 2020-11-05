@@ -12,17 +12,17 @@
    <img src="./.github/desktop.png" width="1200px">
 </div>
 
+## 💡 Projeto
+
+Bikcraft é um projeto desenvolvido no curso de Web Design da Origamid, com a intenção de ajudar uma empresa de bicicletas artesanais expandir sua marca e divulgar seus produtos.
+
 ## 🛠 Tecnologias
 
-Esse projeto foi desenvolvido com:
+Esse projeto foi desenvolvido utilizando:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-## 💡 Projeto
-
-Bikcraft é um projeto desenvolvido no curso de Web Design da Origamid, com a intenção de ajudar uma empresa de bicicletas artesanais expandir sua marca e divulgar seus produtos.
 
 ## 📋 Wireframe e Design disponível em:
 
