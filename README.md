@@ -17,5 +17,5 @@
 ### Web Screenshot
 <div align="center">
    <img src="./img/desktop.png" width="500px">
-   <img src="./img/mobile.png" width="125px">
+   <img src="./img/mobile.png" width="500px">
 </div>
