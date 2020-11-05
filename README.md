@@ -6,16 +6,17 @@
 
 # Índice
 
-* [Demo Website](#eyes-demo-website)   
-* [Technologies](#computer-technologies)
-* [Features](#rocket-features)
-* [How to Run](#construction_worker-how-to-run)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [Contributing](#tada-contributing)
-* [License](#closed_book-license)
+
+
+## Wireframe e Design disponivel em: 
+
+➡ [Wireframe](https://xd.adobe.com/view/f189d9ee-5e17-42e0-4e70-d9de371e4588-87b8/) 
+
+➡ [Design](https://xd.adobe.com/view/ca6958ac-4c7f-467d-4f82-428927607a9e-bc58/) 
 
 ### Web Screenshot
 <div align="center">
-   <img src="./img/desktop.png" width="500px">
-   <img src="./img/mobile.png" width="200px">
+   <img src="https://ibb.co/jLz2QTD" width="500px">
+   <img src="https://ibb.co/Rv3rkNn" width="200px">
 </div>
+
