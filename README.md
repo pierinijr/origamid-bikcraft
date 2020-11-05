@@ -15,6 +15,7 @@
 * [License](#closed_book-license)
 
 ### Web Screenshot
-<div>
-   <img src="./img/desktop.png" width="400px">
+<div align="center">
+   <img src="./img/desktop.png" width="600px">
+   <img src="./img/mobile.png" width="600px">
 </div>
