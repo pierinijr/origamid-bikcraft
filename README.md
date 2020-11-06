@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-   <img src="./.github/desktop.png" width="1200px">
+   <img src="./.github/desktop.svg" width="1200px">
 </div>
 
 ## 💡 Projeto
