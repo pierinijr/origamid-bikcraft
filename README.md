@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-wireframe">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#-wireframe">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <div align="center">
@@ -20,9 +20,9 @@ Bikcraft é um projeto desenvolvido no curso de Web Design da Origamid, com a in
 
 Esse projeto foi desenvolvido utilizando:
 
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 📋 Wireframe e Design disponível em:
 
