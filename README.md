@@ -24,9 +24,9 @@ Esse projeto foi desenvolvido utilizando:
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 📋 Layout:
+## 📋 Layout
 
-Wireframe e Design desenvolvido no Adobe XD disponiveis abaixo:
+Wireframe e Design desenvolvido no Adobe XD disponíveis abaixo:
 
 * [Wireframe](https://xd.adobe.com/view/f189d9ee-5e17-42e0-4e70-d9de371e4588-87b8/) 
 * [Design](https://xd.adobe.com/view/ca6958ac-4c7f-467d-4f82-428927607a9e-bc58/) 
